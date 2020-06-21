@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Kabar Terkini
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-card *ngFor="let news of articles">
+
+   <img class="gambar" style="border-bottom: 5px solid black;"  [src]="news.urlToImage">
+
+   <ion-card-content>
+    <p class="nama">{{news.source.name}}</p>
+    <ion-card-title>
+      <p class="judul">{{news.title}}</p>
+    </ion-card-title >
+    <p class="deskripsi">{{news.description}}</p>
+    
+    <h6 style="font-size: 8px;font-style: italic;padding-top: 5px;font-family: Arial, Helvetica, sans-serif;"><ion-icon name="md-calendar"></ion-icon> Publis - {{news.publishedAt}}
+    </h6>
+  </ion-card-content>
+
+
+ </ion-card>
+</ion-content>

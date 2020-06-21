@@ -1,0 +1,38 @@
+page-home {
+    .header .toolbar-title{
+        text-align: center;
+        color: white !important;
+    }
+
+    .gambar {
+        float: left;
+        width: 55%;
+        margin-right: 5px;
+    }
+
+    .nama {
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+        font-size: 12px;
+    }
+
+    .judul {
+        font-weight: bold;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif; 
+        text-align:justify
+    }
+
+    .deskripsi {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .toolbar {
+        .toolbar-background{
+            background-color: rgb(0, 128, 68) ;
+        }
+    }
+
+}
